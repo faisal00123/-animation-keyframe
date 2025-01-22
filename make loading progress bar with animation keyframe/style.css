@@ -1,0 +1,32 @@
+
+
+/* keyframes */
+
+  #box{
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    animation: linear 10s myloading;
+}
+
+@keyframes myloading{
+0%{
+    width: 100px;
+    height: 3px;
+    background-color: brown;
+}
+25%{
+    width: 300px;
+    height: 3px;
+    background-color: yellow;
+}
+50%{
+    width: 600px;
+    height: 20px;
+    background-color: black;
+}
+100%{
+    width: 1300px;
+    height: 3px;
+    background-color: hotpink;
+}
